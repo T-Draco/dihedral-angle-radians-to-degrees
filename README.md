@@ -4,7 +4,7 @@ Protein PDB files possess the atomic coordinates of amino acid atom locations. T
 
 This program utilizes Biopython, specifically the PDBParser package. This repository is intended for the conversion of PDB atomic coordinates into dihedral angle values, and then the conversion of dihedral angle values from radians to degrees. This module was made for non-profit reasons. Improvement edits to this repository are highly encouraged with proper source code citations and use of the GitHub branch function.
 
-The PDBParser module, for PDB atomic coordinates to dihedral angle conversions, original source code was written by Dr. Peter Cock. The code was slightly modified to include a file path function. Source: Cock, P. (2006), Biopython (Version 1.4) [code]. https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/ramachandran/calculate/#BioPython 
+The PDBParser module, for PDB atomic coordinates to dihedral angle conversions, original source code was written by Dr. Peter Cock. I slightly modified to include a file path function. Source: Cock, P. (2006), Biopython (Version 1.4) [code]. https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/ramachandran/calculate/#BioPython 
 
 These modules require biopython and numpy.
 
