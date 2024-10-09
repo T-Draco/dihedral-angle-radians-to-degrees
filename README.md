@@ -10,6 +10,6 @@ The Biopython package is an open source software. Please see the "LICENSE.rst" f
 Installation of biopython
 ========================
 
-pip install biopython
+    pip install biopython
 
 Biopython requires numpy, which is installed automatically when biopython is installed with the pip function.
