@@ -32,6 +32,6 @@ def convert_rads_to_degs(input_file_path, output_file_path):
     with open(output_file_path, 'w') as output_file:
         output_file.write('\n'.join(convert_coords))
 
-input_file_path = #replace your input_file_path with your .txt input file with radiant coordinates
-output_file_path = #replace your output_file_path with a .txt output document
+input_file_path = #replace your input_file_path with your .txt input file which possesses the radian coordinates
+output_file_path = #replace your output_file_path with a .txt output document for your converted coordinates
 convert_rads_to_degs(input_file_path, output_file_path)
