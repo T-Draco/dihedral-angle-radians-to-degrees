@@ -4,11 +4,11 @@ from Bio.PDB import PDBParser
 #PDB file reader 
 
 def main():
-    pdb_file_path = r"C:\Users\Tania\Documents\Bioinformatics\Protein Bioinformatics\4n6n.pdb"
+    pdb_file_path = #Insert your PDB file path here
     parser = PDBParser
     structure = parser.get_structure('protein', pdb_file_path)
 
-for model in Bio.PDB.PDBParser().get_structure("4N6N", r"C:\Users\Tania\Documents\Bioinformatics\Protein Bioinformatics\4n6n.pdb") :
+for model in Bio.PDB.PDBParser().get_structure(#add your protein PDB ID here ex. "4N6N", #Insert your PDB file path here) :
     for chain in model :
         polypeptides = Bio.PDB.PPBuilder().build_peptides(chain)
         for poly_index, poly in enumerate(polypeptides) :
@@ -24,3 +24,6 @@ for model in Bio.PDB.PDBParser().get_structure("4N6N", r"C:\Users\Tania\Document
 
 
         
+#Source: 
+# Cock, P. (2006), Biopython (Version 1.4) [code]. https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/ramachandran/calculate/#BioPython 
+# Note: this code was edited to contain a file path
