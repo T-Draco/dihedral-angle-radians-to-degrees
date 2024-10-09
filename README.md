@@ -7,8 +7,9 @@ The Biopython Project is an international association of developers of freely av
 
 The Biopython package is an open source software. Please see the "LICENSE.rst" file provided by: <https://github.com/biopython/biopython/blob/master/LICENSE.rst>` for further details.
 
-# Installation of biopython
+Installation of biopython
 ========================
+
 pip install biopython
 
 Biopython requires numpy, which is installed automatically when biopython is installed with the pip function.
