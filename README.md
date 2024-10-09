@@ -9,6 +9,8 @@ Source: Cock, P. (2006), Biopython (Version 1.4) [code]. https://warwick.ac.uk/f
 
 I slightly modified the code written by Dr. Peter Cock to include a file path function.
 
+To find the modules for converting dihedral angles to secondary structures, find my "dihedral_angles_to_secondary_structures" repository at: https://github.com/sstonya/dihedral_angles_to_secondary_structures.git 
+
 These modules require biopython and numpy.
 
 The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.
