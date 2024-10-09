@@ -1,4 +1,5 @@
-# dihedral_angle_radians_to_degrees (converter)
+dihedral_angle_radians_to_degrees (converter)
+=====================
 This program utilizes Biopython, specifically the PDBParser package. This repository is intended for the conversion of PDB atomic coordinates into dihedral angle values, and then the conversion of dihedral angle values from radians to degrees. This module was made for non-profit reasons. Improvement edits to this repository are highly encouraged with proper source code citations.
 
 These modules require biopython and numpy.
