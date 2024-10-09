@@ -1,6 +1,6 @@
 dihedral_angle_radians_to_degrees (converter)
 =====================
-Protein PDB files possess the atomic coordinates of amino acid atom locations. These atomic coordinates can be parsed into dihedral angle values, which can then be used to predict the secondary structures of proteins. To find the modules for converting dihedral angles to secondary structures, find my "dihedral_angles_to_secondary_structures" repository at: https://github.com/sstonya/dihedral_angles_to_secondary_structures.git 
+Protein PDB files possess the atomic coordinates of amino acid atom locations. These atomic coordinates can be parsed into dihedral angle values, which can then be used to predict the secondary structures of proteins. To find the modules for converting dihedral angles to secondary structures, find my "dihedral_angles_to_secondary_structures" repository at: https://github.com/T-Draco/dihedral-angles-to-secondary-structures
 
 This program utilizes Biopython, specifically the PDBParser package. This repository is intended for the conversion of PDB atomic coordinates into dihedral angle values, and then the conversion of dihedral angle values from radians to degrees. This module was made for non-profit reasons. Improvement edits to this repository are highly encouraged with proper source code citations and use of the GitHub branch function.
 
