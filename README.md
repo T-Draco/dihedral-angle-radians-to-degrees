@@ -6,7 +6,7 @@ This program utilizes Biopython, specifically the PDBParser package. This reposi
 
 The PDBParser module, for PDB atomic coordinates to dihedral angle conversions, original source code was written by Dr. Peter Cock. Source: Cock, P. (2006), Biopython (Version 1.4) [code]. https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/ramachandran/calculate/#BioPython 
 
-I slightly modified the code written from https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/ramachandran/calculate/#BioPython to include a file path function.
+I slightly modified the code written by Dr. Peter Cock to include a file path function.
 
 These modules require biopython and numpy.
 
